@@ -6,12 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sample | Contact Us</title>
     <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="contact">
     <%- include commons/header.ejs%>
     <main>
-
+        <div class="container">
+            <div class="card bg-dark" style="width: 18rem;">
+                <img id="card-img" class="card-img-top rounded-circle" src="/images/debray.jpg" alt="Card image cap">
+                <span id="divider" class="dropdown-divider"></span>
+                <div class="card-body">
+                    <h5 class="card-title text-light text-center">DeBray Carpenter</h5>
+                    <h2 class="card-text text-light text-justify text-center"><i class="fab fa-linkedin"></i> <i class="fab fa-github-square"></i> <i class="fas fa-envelope-square"></i></h2>
+                </div>
+            </div>
+        </div>
     </main>
     <%- include commons/footer.ejs%>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
