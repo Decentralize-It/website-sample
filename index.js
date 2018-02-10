@@ -23,4 +23,8 @@ app.get('/aboutus', (req, res) => {
     res.render('aboutus')
 })
 
+app.get('/addlink', (req, res) => {
+    res.render('addlink')
+})
+
 app.listen(PORT, () => console.log(`APPLICATION LIVE ON ${PORT}`))
