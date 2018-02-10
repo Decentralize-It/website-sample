@@ -1,5 +1,6 @@
 header {
     margin-bottom: 5%;
+    opacity: 0.9;
 }
 main {
     margin-bottom: 10%;
@@ -12,6 +13,7 @@ footer {
     padding: 1%;
     text-align: center;
     -webkit-margin-top-collapse: 5%;
+    opacity: 0.9;
 }
 
 #fullscreen-bg {
@@ -47,7 +49,7 @@ footer {
       height: 300%;
       top: -100%;
     }
-    
+
   }
   
   @media (max-aspect-ratio: 16/9) {
@@ -66,3 +68,24 @@ footer {
  .carousel-inner {
      height: 80%;
  }
+.card {
+    opacity: 0.9;
+}
+
+#card-img {
+    /* border-radius: 50%; */
+    width: 80%;
+    height: auto;
+    margin: 10%;
+}
+
+#divider {
+    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+body.home li.home, body.aboutus li.aboutus, body.contact li.contact {
+    -webkit-text-fill-color: white;
+    font-weight: bold;
+}
