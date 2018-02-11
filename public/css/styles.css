@@ -89,3 +89,33 @@ body.home li.home, body.aboutus li.aboutus, body.contact li.contact {
     -webkit-text-fill-color: white;
     font-weight: bold;
 }
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.bg-text-div {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.bg-div {
+    width: 100%;
+    position: static;
+    padding: 20%;
+    z-index: 0;
+    opacity: 0.0;
+}
+
+#carousel-card {
+    z-index:  0;
+}
