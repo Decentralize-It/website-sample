@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.get('/contact', (req, res) => {
-    res.render('contact')
+app.get('/archive', (req, res) => {
+    res.render('archive')
 })
 
 app.get('/aboutus', (req, res) => {
